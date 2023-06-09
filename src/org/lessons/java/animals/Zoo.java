@@ -16,6 +16,7 @@ public class Zoo {
         zoo[2] = new Aquila();
         zoo[3] = new Delfino();
 
+        //stampo tutti gli elementi di zoo[] e i rispettivi metodi
         for (int i = 0; i < zoo.length ; i++) {
             System.out.println("\nAnimale: " + zoo[i].getClass().getSimpleName());
             System.out.println("Verso: ");
