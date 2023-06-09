@@ -29,7 +29,7 @@ public class Zoo {
             //funzione per volante/nuotante
             if(zoo[i] instanceof Volante){
                 faiVolare((Volante) zoo[i]);
-            } else {
+            } else if(zoo[i] instanceof Nuotante) {
                 faiNuotare((Nuotante) zoo[i]);
             }
         }
